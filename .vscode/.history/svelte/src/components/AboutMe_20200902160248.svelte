@@ -1,0 +1,37 @@
+<script>
+    import DentedCard from './DentedCard.svelte';
+</script>
+
+<div>
+
+    <h2>About Me</h2>
+
+    <DentedCard>
+        <div class="description">
+            I am a <b>front-end engineer</b>.<br>
+            I am also interested in mobile <b>application development</b>.
+        </div>
+    </DentedCard>
+
+</div>
+
+<style>
+
+    div {
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    div.description {
+        text-align: left;
+    }
+
+    h2 {
+        color: #BABECC;
+        text-shadow: 1px 1px 1px white;
+        padding-bottom: 20px;
+    }
+
+</style>

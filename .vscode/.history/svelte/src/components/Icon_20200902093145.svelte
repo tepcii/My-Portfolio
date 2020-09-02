@@ -1,0 +1,29 @@
+<script>
+    let src = "img/icon.jpg";
+</script>
+
+<div class="trim">
+    <img {src} alt="Tepci's Icon">
+</div>
+
+<style>
+    .trim {
+        position: relative;
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .trim img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        height:100%;
+    }
+    div {
+        box-shadow: -2px -2px 5px rgba(255, 255, 255, 1), 3px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+</style>
