@@ -29,7 +29,7 @@
         left: calc(50% - 75px);
         border: 10px solid #ebf5fc;
         border-radius: 10px;
-        box-shadow: -9px -9px 16px rgba(255, 255, 255, 1), 9px 9px 16px rgba(163, 177, 198, 0.6);
+        box-shadow: -9px -9px 16px rgba(255, 255, 255, 1), 9px 9px 16px rgba(0, 0, 0, 0.1);
     }
 
     @media screen and (max-width: 480px) {
