@@ -1,1 +1,1 @@
-[MyPortfolio](https://tepci.ml/)
+[MyPortfolio](https://profile.tepci.app/)
